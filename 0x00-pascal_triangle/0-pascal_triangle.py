@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""Pascals triangle"""
+
 
 def pascal_triangle(n):
     """A function that creates a pascal triangle"""
