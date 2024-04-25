@@ -1,9 +1,15 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Pascals triangle"""
 
 
 def pascal_triangle(n):
-    """A function that creates a pascal triangle"""
+    """
+    a function that returns a list
+    of integers representing the
+    pascal triangle of n:
+       . Returns an empty list if n <= 0
+       . assume n will be always an integer
+    """
 
     # Instantiate a new empty array for triangle
     pascal_tri = []
