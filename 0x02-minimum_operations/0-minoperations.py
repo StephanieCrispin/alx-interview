@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Function that calculates the minimum number 
 of operations needed to print n 'H' in a file"""
 
