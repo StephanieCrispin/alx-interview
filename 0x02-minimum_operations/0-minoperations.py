@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Function that calculates the minimum number 
+"""Function that calculates the minimum number
 of operations needed to print n 'H' in a file"""
 
 
