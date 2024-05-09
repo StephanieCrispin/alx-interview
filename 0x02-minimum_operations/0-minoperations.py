@@ -3,7 +3,7 @@
 of operations needed to print n 'H' in a file"""
 
 
-def minOperations(n):
+def minOperations(n: int) -> int:
     """Calculates the minimum operations to result in n"""
     process = 2
     operations = 0
