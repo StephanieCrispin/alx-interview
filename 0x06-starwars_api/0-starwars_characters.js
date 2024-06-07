@@ -14,11 +14,11 @@ request(options, function (error, response, body) {
   }
 });
 
-const printCharacters = (characters, index) => {
+function printCharacters(characters, index) {
   request(characters[index], function (error, response, data) {
     if (!error) {
       console.log(JSON.parse(data).name);
       if (index + 1 < characters.length) printCharacters(characters, index + 1);
     }
   });
-};
+}
